@@ -11,12 +11,13 @@ def jadencase(text):
     return " ".join(words)
     
 def jadenCaseCopy(text):
-    cadena =""
+    cadena = ""
     for i,letra in enumerate(text):
         if (i > 0 and text[i-1] == " "):
             cadena += letra.upper()
         else:
             cadena += letra
     return cadena
+
 
 print(jadenCaseCopy(tweet))
