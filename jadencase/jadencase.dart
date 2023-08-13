@@ -5,20 +5,18 @@ main(List<String> arg) {
 
     print("--------------------------------");
     print("Starting the letter copy version");
-    final startCopyTime = DateTime.now();
+    final copyWatch= Stopwatch()..start();
     jadenCaseCopy(string);
-    final endCopyTime = DateTime.now();
-    final diffCopy = endCopyTime.millisecondsSinceEpoch - startCopyTime.millisecondsSinceEpoch;
-    print("Executed in $diffCopy ms" );
+    copyWatch.stop();
+    print("Executed in ${copyWatch.elapsedMilliseconds} ms " );
     
 
     print("--------------------------------"); 
     print("Starting the word array version");
-    final startArrTime = DateTime.now();
+    final arrWatch = Stopwatch()..start();
     jadenCase(string);
-    final endArrTime = DateTime.now();
-    final diff = endArrTime.millisecondsSinceEpoch - startArrTime.millisecondsSinceEpoch;
-    print("Executed in $diff ms" );
+    arrWatch.stop();
+    print("Executed in ${arrWatch.elapsedMilliseconds} ms" );
 }
 
 String jadenCase(String text) {
