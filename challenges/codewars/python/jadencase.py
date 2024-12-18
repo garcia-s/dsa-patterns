@@ -1,3 +1,4 @@
+# Declaracion
 def jadenCase(text):
     # Separamos la frase en palabras
     words = text.split(" ")
