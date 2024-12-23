@@ -15,6 +15,19 @@
 // You must do this by modifying the input array in-place with O(1) extra memory.
 
 function removeDuplicates(nums: number[]): number {
-    return -1
+    const seen = {}
+    let k = 0
+    for (let i = 0; i < nums.length; i++) {
+        const curr = seen[nums[i]]
+        nums[k] = nums[i]
+        if (curr && curr >= 2) continue
+        k++
+        curr ?
+            seen[nums[i]]++ :
+            seen[nums[i]] = 1
+    }
+    return k
 }
+
+export default removeDuplicates
 
