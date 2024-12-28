@@ -22,3 +22,4 @@ function helper(nums: number[], lo: number, hi: number): TreeNode | null {
     root.right = helper(nums, mid + 1, hi)
     return root
 }
+
