@@ -1,5 +1,3 @@
-data = [2, 6, 5, 3, 8, 7, 1, 0]
-# data = [0, 6, 5, 3, 8, 7, 1, 2]
 
 
 def quicksort(arr, lo=0, hi=None):
