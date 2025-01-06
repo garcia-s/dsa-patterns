@@ -1,0 +1,32 @@
+{
+    "name": "dsa-patterns",
+    "version": "0.0.1",
+    "description": "Leet code questions from leetcode.com",
+    "main": ".",
+    "scripts": {
+        "test": "jest ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/garcia-s/dsa-patterns.git"
+    },
+    "keywords": [
+        "leetcode",
+        "challenges",
+        "data-structures",
+        "algorithms",
+        "dsa"
+    ],
+    "author": "Juan García",
+    "license": "GPL-2.0-or-later",
+    "bugs": {
+        "url": "https://github.com/garcia-s/dsa-patterns/issues"
+    },
+    "homepage": "https://github.com/garcia-s/dsa-patterns#readme",
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.2.5",
+        "ts-node": "^10.9.2"
+    }
+}
