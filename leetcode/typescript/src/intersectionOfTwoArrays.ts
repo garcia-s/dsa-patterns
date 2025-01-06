@@ -1,22 +1,10 @@
 
-/**
- * Definition for a binary tree node.
- * class TreeNode {
- *     val: number
- *     left: TreeNode | null
- *     right: TreeNode | null
- *     constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.left = (left===undefined ? null : left)
- *         this.right = (right===undefined ? null : right)
- *     }
- * }
- */
-
-function sortedArrayToBST(nums: number[]): TreeNode | null {
-    
-};
 
 function intersection(nums1: number[], nums2: number[]): number[] {
-    
+    const numSet = new Set(nums1)
+    let result = new Set<number>()
+    for (let i = 0; i < nums2.length; i++) {
+        if (numSet.has(nums2[i])) result.add(nums2[i])
+    }
+    return Array.from<number>(result)
 };
