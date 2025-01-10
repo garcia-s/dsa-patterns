@@ -1,42 +1,30 @@
-# Estructuras de datos, algoritmos y patrones en distintos lenguajes.
+# Todas las estructuras de datos, algoritmos conocidos y patrones de diseño.
 
-El proposito de este repositorio es dominar al nivel mas profundo posible las estructura de datos, las estrategias para aplicar algoritmos y los patrones de diseño existente en distintos lenguajes.
+Una colección de todas las estructuras de datos, algoritmos y patrones de diseño con motivos de investigacion.
+Tambien hay una lista de soluciones comunes a desafios de código de leetcode y codewars. Aunque va a tomar una gran cantidad de tiempo completarlos todos.
 
-Esta lista está incompleta y probablemente siempre esté incompleta, porque nuevas estructuras desconocidas para mi puede que no esten aun en este repositorio.
+[Traducción al Inglés](./README.md)
 
-Algunos de estos conceptos no estoy 100% seguro de su nombre en español, a pesar de ser mi idioma nativo. Esto es porque estos temas los aprendí en inglés y la terminologia en español es nueva para mi.
 
-## Estructuras de datos
+# Estructuras de datos
 
-    -Listas Enlazadas (Linked Lists)
-    -Colas (Queues)
-    -Stacks (Pilas)
-    -Arboles Binarios (Binary Trees)
-    -Arboles de busqueda binaria (Binary Search Tree)
-    -Gráficos Direccionales (Directional Graph)
+[Estructuras de datos general](./structures/README-es.md)
 
-## Algoritmos
 
-    -Busqueda Binaria
-    -Busqueda Lineal
-    -Ordenado de Burbuja (bubble sort)
-    -Ordenado de combinacion (merge sort)
-    -Ordenado Rápido (Quick Sort)
+# Algoritmos
 
-### Tecnicas de algoritmos (Conocidas por mi hasta el momento).
+- [Algoritmos general](./algorithms/README-es.md)
 
-    -Fuerza bruta
-    -Dividir y conquistar
-    -Programación Dinamica
-    -Sliding Window
-    -Reducir/Transformar y conquistar
-    -BackTracking
-    -Branch and Bound
 
 ## Patrones de diseño
 
-### Estructurales
-### Creacionales
-### Comportamiento
+[Patrones de diseño general](./patterns/README-es.md)
 
-## Desafios
+
+## Soluciones para leetcode.com 
+
+[Lista de soluciones de leetcode](./leetcode/README-es.md)
+
+
+
+
