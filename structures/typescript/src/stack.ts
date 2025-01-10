@@ -11,8 +11,8 @@ class SNode<T> {
 }
 
 export default class Stack<T> {
-    _head: SNode<T> | null = null;
-    _length: number = 0
+    private _head: SNode<T> | null = null;
+    private _length: number = 0
 
     get empty(): boolean {
         return this._length == 0
