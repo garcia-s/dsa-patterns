@@ -11,18 +11,18 @@ Hay muchisimos patrones diferentes, tantos como puedas imaginar. Así que, por a
 
 Los patrones Creacionales son los mas faciles de entender, administran el proceso de crear algo.
 
-- [Factory Method](./docs/FACTORY.md)
-- [Abstract Factory ](./docs/ABSTRACT-FACTORY.md)
-- [Builder](./docs/BUILDER.md)
-- [Prototype](./docs/PROTOTYPE.md)
-- [SINGLETON (ANTI) PATTERN](./docs/SINGLETON.md)
+- [Factory Method](./docs/FACTORY-es.md)
+- [Abstract Factory ](./docs/ABSTRACT-FACTORY-es.md)
+- [Builder](./docs/BUILDER-es.md)
+- [Prototype](./docs/PROTOTYPE-es.md)
+- [SINGLETON (ANTI) PATTERN](./docs/SINGLETON-es.md)
 
 ## Patrones de comportamiento. 
 
-- [Chain of responsability](./docs/FACTORY.md)
-- [Command](./docs/FACTORY.md)
-- [Iterator](./docs/FACTORY.md)
-- [Mediator](./docs/FACTORY.md)
+- [Chain of responsability](./docs/FACTORY-es.md)
+- [Command](./docs/COMMAND-es.md)
+- [Iterator](./docs/ITERATOR-es.md)
+- [Mediator](./docs/MEDIATR-es.md)
 - [Memento](./docs/FACTORY.md)
 - [Observer](./docs/FACTORY.md)
 - [State](./docs/FACTORY.md)
