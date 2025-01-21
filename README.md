@@ -7,8 +7,8 @@ This is an incomplete work, and it'll probably never be complete as it will take
 
 ## [Spanish Translation](./README-es.md)
 
-#### [Data Structures](./structures/README.md)
-#### [Common Algorithms](./algorithms/README.md)
-#### [Problem-Solving Techniques and Strategies](./techniques/README.md)
-#### [Design Patterns](./patterns/README.md)
-#### [Leetcode Solutions](./patterns/README.md)
+-	 [Data Structures](./structures/README.md)
+-	 [Common Algorithms](./algorithms/README.md)
+-	 [Problem-Solving Techniques and Strategies](./techniques/README.md)
+-	 [Design Patterns](./patterns/README.md)
+-	 [Leetcode Solutions](./patterns/README.md)
