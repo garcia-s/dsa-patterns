@@ -1,4 +1,4 @@
-import { EventEmitter } from "../src/event_emitter";
+import { EventEmitter } from "../../src/patterns/event_emitter";
 
 type Events = {
     message: string;

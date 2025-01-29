@@ -1,4 +1,4 @@
-import Stack from "../src/stack";
+import Stack from "../../src/structures/stack";
 
 describe('Stack tests', () => {
     let stack: Stack<number>;
