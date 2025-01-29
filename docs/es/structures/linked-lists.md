@@ -32,3 +32,4 @@ Se puede implementar acceso aleatorio mediante __tabulación__ para optimizar la
 ### Ejemplos:
 
 - [Typescript](../../../typescript/src/structures/doubly_linked_list.ts)
+- [Golang](../../../golang/pkg/structures/linked_list/linked_list.go)
