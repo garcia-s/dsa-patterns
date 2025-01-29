@@ -9,8 +9,8 @@ Esta es una obra en proceso y probablemente nunca se termine, porque me tomaria 
 
 ## Contenido
 
-- [Estructuras de datos](./structures/README-es.md)
-- [Algoritmos](./algorithms/README-es.md)
-- [Tecnicas y estrategias de resolución de problemas](./techniques/README-es.md)
--  [Patrones de diseño](./patterns/README-es.md)
-- [Lista de soluciones de leetcode](./leetcode/README-es.md)
+- [Estructuras de datos](./docs/es/structures/README.md)
+- [Algoritmos](./docs/es/algorithms/README.md)
+- [Tecnicas y estrategias de resolución de problemas](./docs/es/techniques/README.md)
+-  [Patrones de diseño](./docs/es/patterns/README-es.md)
+- [Lista de soluciones de leetcode](./docs/es/leetcode/README.md)
