@@ -1,6 +1,6 @@
 # Arrays.
 
-Arrays are one of the simplest data structures. Now, here we are talking about "real arrays" which should not beconfused with __ArrayLists__. Arrays are a "list" of continuous memory that contain __something__.
+Arrays are one of the simplest data structures. Now, here we are talking about "real arrays" which should not beconfused with __ArrayLists__. Arrays are a "list" of contiguous memory that contain __something__.
 
 They can contain pretty much anything you can imagine, pointers/references, numbers, characters, etc. In fact what we know as a "tring" it's actually an array of characters.
 
