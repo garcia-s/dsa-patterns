@@ -1,18 +1,16 @@
-# Data structures
+# Data Structures
 
-data structures are just way to organize, store and proccess data. they represent different ways in which data can be presented and handled in code. i understand this is a generic and abstract explanation, but i promise it'll make sense as you learn them.
+Data structures are just way to organize, store and proccess data. they represent different ways in which data can be presented and handled in code. i understand this is a generic and abstract explanation, but i promise it'll make sense as you learn them.
 
-this are basically the building blocks of computer programming so, consider learning as many as you can and nee.
+This are basically the building blocks of computer programming so, consider learning as many as you can and nee.
 
+Here are some of the datastructures and their variations:
 
+### Arrays
 
-here are some of the datastructures and their variations:
+Simply put an array is list of __things__ in a continous memory. Where all of this __things__ (or the references/pointers to the thing) are adjacent to each other.
 
-### arrays
-
-simply put an array is list of __things__ in a continous memory. where all of this __things__ (or the references/pointers to the thing) are adjacent to each other.
-
-there are other abstrations that use provide extra functionality over arrays, so it (kinda) makes sense to groupthem together as variations.
+There are other abstrations that use provide extra functionality over arrays, so it (kinda) makes sense to groupthem together as variations.
 
 
 - [arrays](./arrays.md)
@@ -21,42 +19,42 @@ there are other abstrations that use provide extra functionality over arrays, so
 - [ring buffers](./ring-buffers.md)
 
 
-### linked lists
+### Linked Lists
 
-- [linked lists](./linked-lists.md)
-- [doubly linked lists](./doubly-linked-lists.md)
-- [queues](./queues.md)
-- [stacks](./stacks.md)
-- [circularlinkedlists](./circular-linked-list.md)
+- [Linked Lists](./linked-lists.md)
+- [Doubly Linked Lists](./doubly-linked-lists.md)
+- [Queues](./queues.md)
+- [Stacks](./stacks.md)
+- [Circular Linked Lists](./circular-linked-list.md)
 
 
-### heaps
+### Heaps
 
-- [min heap](./.md)
+- [Min heap](./.md)
 - [max heap](./.md)
 
-### trees
+### Trees
 
-- [binary trees](./binary-trees.md)
-- [binary search tree](./binary-search-trees.md)
-- [avl tree](./avl-trees.md)
-- [red black tree](./red-black-trees.md)
-- [ternary search tree](./ternary-search-trees.md)
-- [generic tree](./generic-trees.md)
-- [b tree](./b-trees.md)
-- [b+ tree](./b-plus-trees.md)
-- [radix tree](./radix-trees.md)
-- [trie](./tries.md)
+- [Binary Trees](./binary-trees.md)
+- [Binary Search Tree](./binary-search-trees.md)
+- [AVL Tree](./avl-trees.md)
+- [Red Black Tree](./red-black-trees.md)
+- [Ternary Search Tree](./ternary-search-trees.md)
+- [Generic Tree](./generic-trees.md)
+- [B Tree](./b-trees.md)
+- [B+ Tree](./b-plus-trees.md)
+- [Radix Tree](./radix-trees.md)
+- [Trie](./tries.md)
 
-### graphs
+### Graphs
 
-- [undirected graphs](./.md)
-- [directed graphs](./.md)
-- [weighted graphs](./.md)
-- [unweighted graphs](./.md)
-- [complete graphs]./(.md)
-- [bipartite graphs](./.md) 
-- [cycles graphs](./.md)
-- [sparse graphs](./.md)
-- [dense graphs](./.md)
+- [Undirected Graphs](./.md)
+- [Directed Graphs](./.md)
+- [Weighted Graphs](./.md)
+- [Unweighted Graphs](./.md)
+- [Complete Graphs](./.md)
+- [Bipartite Graphs](./.md) 
+- [Cycles Graphs](./.md)
+- [Sparse Graphs](./.md)
+- [Dense Graphs](./.md)
 

@@ -1,62 +1,60 @@
-# Data Structures
+# Estructuras de Datos
 
-Data structures are just way to organize, store and proccess data. They represent different ways in which data can be presented and handled in code. I understand this is a generic and abstract explanation, but I promise it'll make sense as you learn them.
+Las estructuras de datos son simplemente una forma de organizar, almacenar y procesar datos. Representan diferentes maneras en las que los datos pueden presentarse y manipularse en el código. Entiendo que esta es una explicación genérica y abstracta, pero te prometo que tendrá sentido a medida que las aprendas.
 
-This are basically the building blocks of computer programming so, consider learning as many as you can and nee.
+Estas son, básicamente, los bloques de construcción de la programación informática, así que considera aprender tantas como puedas y necesites.
 
+here are some of the datastructures and their variations:
 
+### Arreglos (Arrays)
 
-Here are some of the datastructures and their variations:
+En pocas palabras, un arreglo es una lista de cosas en memoria continua, donde todas estas cosas (o las referencias/pointers a ellas) están adyacentes.
 
-### Arrays
-
-Simply put an array is list of __things__ in a continous memory. Where all of this __things__ (or the references/pointers to the thing) are adjacent to each other.
-
-There are other abstrations that use provide extra functionality over arrays, so it (kinda) makes sense to groupthem together as variations.
+Existen otras abstracciones que proporcionan funcionalidad adicional sobre los arreglos, por lo que (más o menos) tiene sentido agruparlas como variaciones.
 
 
-- [Arrays]./arrays.md)
-- [ArrayLists]./array-lists.md)
-- [Matrix/Grid]./matrix.md)
-- [Ring Buffers]./ring-buffers.md)
+- [Arreglos](./arrays.md)
+- [ArrayList](./array-lists.md)
+- [Matriz/Tabla](./matrix.md)
+- [Buffers Circulares](./ring-buffers.md)
 
 
-### Linked lists
+### Listas Enlazadas (Linked Lists)
 
-- [Linked Lists]./linked-lists.md)
-- [Doubly Linked Lists]./doubly-linked-lists.md)
-- [Queues]./queues.md)
-- [Stacks]./stacks.md)
-- [CircularLinkedLists]./circular-linked-list.md)
+- [Listas Enlazadas](./linked-lists.md)
+- [Listas Enlazadas Dobles](./doubly-linked-lists.md)
+- [Colas](./queues.md)
+- [Pillas](./stacks.md)
+- [Listas Enlazadas Circulares](./circular-linked-list.md)
 
 
-### Heaps
+### Montículos (Heaps)  
 
-- [Min Heap]./.md)
-- [Max Heap]./.md)
+- [Min Heap](./.md)
+- [Max Heap](./.md)
 
-### Trees
+### Árboles 
 
-- [Binary Trees]./binary-trees.md)
-- [Binary Search Tree]./binary-search-trees.md)
-- [AVL Tree]./avl-trees.md)
-- [Red Black Tree]./red-black-trees.md)
-- [Ternary Search Tree]./ternary-search-trees.md)
-- [Generic Tree]./generic-trees.md)
-- [B Tree]./b-trees.md)
-- [B+ Tree]./b-plus-trees.md)
-- [Radix Tree]./radix-trees.md)
-- [Trie]./tries.md)
+- [Árbol binarios](./binary-trees.md)
+- [Árbol de búsqueda binaria](./binary-search-trees.md)
+- [Árbol AVL](./avl-trees.md)
+- [Árbol Rojo-Negro](./red-black-trees.md)
+- [Árbol de búsqueda ternaria](./ternary-search-trees.md)
+- [Árbol generico](./generic-trees.md)
+- [Árbol B](./b-trees.md)
+- [Árbol B+](./b-plus-trees.md)
+- [Arbol Radix](./radix-trees.md)
+- [Trie](./tries.md)
 
-### Graphs
+### Grafos
 
-- [Undirected Graphs]./.md)
-- [Directed Graphs]./.md)
-- [Weighted Graphs]./.md)
-- [Unweighted Graphs]./.md)
-- [Complete Graphs]./.md)
-- [Bipartite Graphs]./.md) 
-- [Cycles Graphs]./.md)
-- [Sparse Graphs]./.md)
-- [Dense Graphs]./.md)
+- [Grafos no dirigidos](./.md)
+- [Grafos dirigidos](./.md)
+- [Grafos ponderados](./.md)
+- [Grafos no ponderados](./.md)
+- [Grafos completos](./.md)
+- [Grafos bipartitos](./.md) 
+- [Grafos cíclicos](./.md)
+- [Grafos dispersos](./.md)
+- [Grafos densos](./.md)
 
