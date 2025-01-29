@@ -21,6 +21,8 @@ There are other abstrations that use provide extra functionality over arrays, so
 
 ### Linked Lists
 
+Linked lists are linear data structures, they are very much an off brand array. But they have a couple of differences; They aren't stored in continous memory and they are way faster with insertions and deletions. Or at leasthave a better time complexity. 
+
 - [Linked Lists](./linked-lists.md)
 - [Doubly Linked Lists](./doubly-linked-lists.md)
 - [Queues](./queues.md)

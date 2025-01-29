@@ -4,7 +4,7 @@ Las estructuras de datos son simplemente una forma de organizar, almacenar y pro
 
 Estas son, básicamente, los bloques de construcción de la programación informática, así que considera aprender tantas como puedas y necesites.
 
-here are some of the datastructures and their variations:
+Aquí hay algunas estructuras de datos y sus variaciones:
 
 ### Arreglos (Arrays)
 
@@ -20,6 +20,9 @@ Existen otras abstracciones que proporcionan funcionalidad adicional sobre los a
 
 
 ### Listas Enlazadas (Linked Lists)
+
+Las listas enlazadas son estructuras lineales, parecidas a los arrays, con un par de diferencias notables; Las listas enlazadas no se guardan en memoria continua y tambien tienen mejor rendimiento al insertar y borrar.
+
 
 - [Listas Enlazadas](./linked-lists.md)
 - [Listas Enlazadas Dobles](./doubly-linked-lists.md)

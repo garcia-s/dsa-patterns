@@ -5,10 +5,14 @@ There is also a collection of common leetcode and codewars solutions. Although i
 
 This is an incomplete work, and it'll probably never be complete as it will take forever to learn and code everything there is to know. However, I'll keep updating this as I learn more, and you are free to contribute.
 
-## [Spanish Translation](./README-es.md)
+I've been teaching these concepts to a couple of newer programmers so I'll be updating this as we progress through, and I'll be creating articles about everything in here.
 
--	 [Data Structures](./docs/en/structures/README.md)
--	 [Common Algorithms](./docs/en/algorithms/README.md)
--	 [Problem-Solving Techniques and Strategies](./docs/en/techniques/README.md)
--	 [Design Patterns](./docs/en/patterns/README.md)
--	 [Leetcode Solutions](./docs/en/patterns/README.md)
+I also have a [spanish translation](./README-es.md) if you need it 
+
+- [Data Structures](./docs/en/structures/README.md)
+- [Common Algorithms](./docs/en/algorithms/README.md)
+- [Problem-Solving Techniques and Strategies](./docs/en/techniques/README.md)
+- [Design Patterns](./docs/en/patterns/README.md)
+- [Leetcode Solutions](./docs/en/patterns/README.md)
+
+
