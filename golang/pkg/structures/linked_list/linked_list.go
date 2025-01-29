@@ -91,14 +91,14 @@ func (l *LinkedList[T]) Pop() (*T, bool) {
 	}
 
 	second := l.head
-	if l.len == 0 {
+	if l.len == 1 {
 		l.len--
 		l.head = nil
 		l.tail = nil
 		return &second.data, true
 	}
 
-	for i := 0; i < l.len-1; i++ {
+	for i := 0; i < l.len-2; i++ {
 		second = second.next
 	}
 
