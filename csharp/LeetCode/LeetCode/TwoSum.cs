@@ -1,4 +1,4 @@
-namespace TwoSum
+namespace LeetCode.TwoSum
 {
 
 
