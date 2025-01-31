@@ -29,7 +29,9 @@ In my experience, I've seen them used mostly as [queues](./queues.md) (a First I
 
 You can implement random access with tabulation to optimize access speeds, but this adds complexity and requires a very specific use case.
 
+
 Examples: 
 
 - [Typescript](../../../typescript/src/structures/doubly_linked_list.ts)
 - [Golang](../../../golang/pkg/structures/linked_list/linked_list.go)
+- [C#](../../../csharp/Structures/Structures/LinkedList.cs)

@@ -1,4 +1,4 @@
-package linked_list
+package linkedlist
 
 // En: A struct that represents the whole Linked List
 //
@@ -66,8 +66,6 @@ func (l *LinkedList[T]) Prepend(data T) {
 	l.head = newNode
 	l.len++
 }
-
-
 
 // En: Removes and returns the last element of the Linked List.
 // Since this is a Singly Linked List this operation will have to traverse the list, making it a O(n) deletion
