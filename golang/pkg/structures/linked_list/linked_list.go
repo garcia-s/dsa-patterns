@@ -67,18 +67,7 @@ func (l *LinkedList[T]) Prepend(data T) {
 	l.len++
 }
 
-// En: Converts the list  into a slice for testing purposes
-//
-// Es: Convierte la lista en un slice con propositos de pruebas
-func (l *LinkedList[T]) toSlice() []T {
-	slice := make([]T, l.len)
-	curr := l.head
-	for i := 0; i < l.len; i++ {
-		slice[i] = curr.data
-		curr = curr.next
-	}
-	return slice
-}
+
 
 // En: Removes and returns the last element of the Linked List.
 // Since this is a Singly Linked List this operation will have to traverse the list, making it a O(n) deletion
