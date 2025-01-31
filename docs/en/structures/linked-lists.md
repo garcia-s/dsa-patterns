@@ -32,6 +32,6 @@ You can implement random access with tabulation to optimize access speeds, but t
 
 Examples: 
 
-- [Typescript](../../../typescript/src/structures/doubly_linked_list.ts)
+- [Typescript](../../../typescript/src/structures/)
 - [Golang](../../../golang/pkg/structures/linked_list/linked_list.go)
 - [C#](../../../csharp/Structures/Structures/LinkedList.cs)

@@ -9,10 +9,10 @@ I've been teaching these concepts to a couple of newer programmers so I'll be up
 
 I also have a [spanish translation](./README-es.md) if you need it 
 
+
 - [Data Structures](./docs/en/structures/README.md)
 - [Common Algorithms](./docs/en/algorithms/README.md)
 - [Problem-Solving Techniques and Strategies](./docs/en/techniques/README.md)
 - [Design Patterns](./docs/en/patterns/README.md)
 - [Leetcode Solutions](./docs/en/patterns/README.md)
-
 
