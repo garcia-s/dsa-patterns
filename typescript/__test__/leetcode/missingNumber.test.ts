@@ -1,4 +1,4 @@
-import missingNumber from "../src/missingNumber"
+import missingNumber from "../../src/leetcode/missingNumber"
 
 test("Test Case 1", () => {
     expect(missingNumber([3, 0, 1])).toBe(2)

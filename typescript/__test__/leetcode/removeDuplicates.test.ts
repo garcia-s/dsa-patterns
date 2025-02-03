@@ -1,4 +1,4 @@
-import removeDuplicates from "../src/removeDuplicates"
+import removeDuplicates from "../../src/leetcode/removeDuplicates"
 
 
 test("Removing single duplicate", () => {

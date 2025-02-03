@@ -1,4 +1,4 @@
-import majorityElement from "../src/majorityElement"
+import majorityElement from "../../src/leetcode/majorityElement";
 
 test("Test with single item", () => {
     const res = majorityElement([2])

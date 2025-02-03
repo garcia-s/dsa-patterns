@@ -4,7 +4,8 @@
     "description": "Leet code questions from leetcode.com",
     "main": ".",
     "scripts": {
-        "test": "jest ."
+        "test": "jest .",
+        "test:structures": "jest ./__test__/structures/*"
     },
     "repository": {
         "type": "git",

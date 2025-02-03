@@ -1,4 +1,4 @@
-import maxProfit from "../src/maxProfit2"
+import maxProfit from "../../src/leetcode//maxProfit2"
 
 
 

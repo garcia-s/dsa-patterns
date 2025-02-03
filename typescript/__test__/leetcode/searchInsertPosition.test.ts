@@ -1,4 +1,4 @@
-import searchInsert from "../src/searchInsertPosition"
+import searchInsert from "../../src/leetcode/searchInsertPosition"
 
 test("Testing an search Insert position found", () => {
     const arr = [1, 3, 5, 6]

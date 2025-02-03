@@ -1,4 +1,4 @@
-import summaryRanges from "../src/summaryRanges"
+import summaryRanges from "../../src/leetcode/summaryRanges"
 
 test("Test case 1", () => {
     expect(summaryRanges([0, 1, 2, 4, 5, 7]))
