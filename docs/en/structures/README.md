@@ -30,15 +30,15 @@ Linked lists are linear data structures, they are very much an off brand array. 
 - [Circular Linked Lists](./circular-linked-list.md)
 
 
-### Heaps
-
-- [Min heap](./.md)
-- [max heap](./.md)
-
 ### Trees
 
+Trees are a recursive structure, a structure that can have children and those children can have children, and those can have children, and so on and so forth. If you have done a genealogical tree, then those are the ones.
+
+Trees are a hierarchical structure, they are organized into a (sort of) parent children relationship so they can represent exactly that. But, let's explore it with a real example I had to implement: 
+
+(/?)Imagine you are creating an inventory system (I know, gross) for a restaurant, and you need handle recipe withdrawals, and by withdrawals I mean executing the recipe if one is available and transform some quantity of item __A__ into some predefined quatity of item __B__ 
+
 - [Binary Trees](./binary-trees.md)
-- [Binary Search Tree](./binary-search-trees.md)
 - [AVL Tree](./avl-trees.md)
 - [Red Black Tree](./red-black-trees.md)
 - [Ternary Search Tree](./ternary-search-trees.md)
@@ -47,6 +47,14 @@ Linked lists are linear data structures, they are very much an off brand array. 
 - [B+ Tree](./b-plus-trees.md)
 - [Radix Tree](./radix-trees.md)
 - [Trie](./tries.md)
+
+
+
+### Heaps
+
+- [Min heap](./.md)
+- [max heap](./.md)
+
 
 ### Graphs
 

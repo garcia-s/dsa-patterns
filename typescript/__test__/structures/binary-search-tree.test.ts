@@ -1,4 +1,4 @@
-import BinarySearchTree from "../../src/structures/binary_search_tree"
+import BinarySearchTree from "../../src/structures/binary-search-tree"
 
 describe("Binary search tree tests", () => {
 
