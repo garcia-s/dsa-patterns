@@ -7,9 +7,11 @@ type LinkedList[T any] struct {
 	///En: The first element of the list
 	///Es: El primer elemento de la lista
 	head *node[T]
-	//En: We are going to use a tail too here, We use a tail because we are going to append too, And if we don't use a tail we'll have to traverse the list to Append making it O(n)
+	//En: We are going to use a tail too here, We use a tail because we are going to append too,
+	//And if we don't use a tail we'll have to traverse the list to Append making it O(n)
 	//
-	//Es: Vamos a usar una variable "cola" para guardar un pointer al ultimo elemento, para no tener que recorrer toda la lista para agregar un elemento al final en la funcion Append()
+	//Es: Vamos a usar una variable "cola" para guardar un pointer al ultimo elemento,
+	//para no tener que recorrer toda la lista para agregar un elemento al final en la funcion Append()
 	tail *node[T]
 
 	//En: We are going to save the length to make it easier to traverse
