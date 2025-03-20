@@ -5,7 +5,7 @@
     "main": ".",
     "scripts": {
         "test": "jest .",
-        "test:structures": "jest ./__test__/structures/*"
+        "test:structs": "jest ./__test__/structures/*"
     },
     "repository": {
         "type": "git",
