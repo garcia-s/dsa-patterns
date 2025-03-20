@@ -8,19 +8,19 @@ describe('Stack tests', () => {
     });
 
 
-    test('Stack.push() should add a new element when the stack is empty', () => {
+    test('Stack.push() should add a new element when the stack is isEmpty', () => {
         stack.push(1);
-        expect(stack.empty).toBeFalsy();
+        expect(stack.isEmpty).toBeFalsy();
         expect(stack.pop()).toBe(1);
     });
 
     test('Stack.pop() should pop element in a FILO order', () => {
         stack.push(1);
         stack.push(3);
-        expect(stack.empty).toBeFalsy();
+        expect(stack.isEmpty).toBeFalsy();
         expect(stack.pop()).toBe(3);
         expect(stack.pop()).toBe(1);
-        expect(stack.empty).toBeTruthy();
+        expect(stack.isEmpty).toBeTruthy();
     });
 
 
@@ -30,4 +30,12 @@ describe('Stack tests', () => {
         stack.push(3);
         expect(stack.peek()).toBe(3);
     });
+
+    test("Stack.pop() should throw while trying to read on an empty stack", () => {
+        expect(stack.pop).toThrow()
+    })
+
+    test("Stack.peek() should throw while trying to read on an empty stack", () => {
+        expect(stack.peek).toThrow()
+    })
 });

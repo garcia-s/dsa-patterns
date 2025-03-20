@@ -10,12 +10,18 @@ class SNode<T> {
     }
 }
 
+export class ReadingEmptyStackException extends Error { }
+
 export default class Stack<T> {
     private _head: SNode<T> | null = null;
-    private _length: number = 0
+    private _len: number = 0
 
-    get empty(): boolean {
-        return this._length == 0
+    get isEmpty(): boolean {
+        return this._len == 0
+    }
+
+    get length() {
+        return this._len
     }
 
     push(val: T) {
@@ -26,19 +32,21 @@ export default class Stack<T> {
             node.next = this._head
             this._head = node
         }
-        this._length++
+        this._len++
     }
 
-    pop(): T | null {
-        if (!this._head) return null;
-        const val = this._head.value;
-        this._head = this._head.next;
-        this._length--
+    pop(): T {
+        if (this._len === 0)
+            throw new ReadingEmptyStackException();
+        const val = this._head!.value;
+        this._head = this._head!.next;
+        this._len--
         return val
     }
 
-
-    peek(): T | null {
-        return this._head ? this._head.value : null;
+    peek(): T {
+        if (this._len === 0)
+            throw new ReadingEmptyStackException();
+        return this._head!.value;
     }
 }
