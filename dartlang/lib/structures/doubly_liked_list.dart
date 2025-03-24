@@ -1,4 +1,11 @@
-class LinkedList<T> {
+class _Node<T> {
+  final T value;
+  _Node<T>? next;
+
+  _Node(this.value);
+}
+
+class DoublyLikedList<T> {
   _Node<T>? head;
   _Node<T>? _tail;
   int _len = 0;
@@ -10,13 +17,4 @@ class LinkedList<T> {
   void prepend(T value) {}
 
   T pop() {}
-
-  // T popFirst() {}
-}
-
-class _Node<T> {
-  final T value;
-  _Node<T>? next;
-
-  _Node(this.value);
 }
