@@ -2,4 +2,4 @@ install:
 	composer install 
 
 test-structs: 
-	./vendor/bin/phpunit ./tests/structures/**
+	./vendor/bin/phpunit  ./tests/structures/** 
