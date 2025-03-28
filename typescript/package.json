@@ -5,6 +5,7 @@
     "main": ".",
     "scripts": {
         "test": "jest .",
+        "test:patterns": "jest ./__test__/patterns/*",
         "test:structs": "jest ./__test__/structures/*"
     },
     "repository": {

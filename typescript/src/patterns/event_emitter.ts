@@ -2,11 +2,8 @@
 type ListenerCallback<T = any> = (payload: T) => void;
 
 export class EventEmitter<Events extends Record<string, any>> {
-    private _listeners: Map<keyof Events, ListenerCallback[]>;
+    private _listeners: Map<keyof Events, ListenerCallback[]> = new Map();
 
-    constructor() {
-        this._listeners = new Map();
-    }
 
     on<K extends keyof Events>(event: K, callback: ListenerCallback<Events[K]>): void {
         if (!this._listeners.has(event)) {
